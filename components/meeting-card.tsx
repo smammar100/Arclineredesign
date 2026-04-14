@@ -2,8 +2,12 @@
 
 import { motion } from "framer-motion";
 import { Calendar } from "lucide-react";
-import { CalendarIllustration } from "./calendar-illustration";
+import {
+  sectionHeadingGradientClass,
+  SECTION_HEADING_GRADIENT_STYLE,
+} from "@/lib/heading-gradient";
 import { easeOut } from "@/lib/page-motion";
+import { CalendarIllustration } from "./calendar-illustration";
 
 export function MeetingCard() {
   return (
@@ -11,7 +15,10 @@ export function MeetingCard() {
       {/* Text Content */}
       <div className="flex-1 flex flex-col gap-[16px]">
         <div className="flex flex-col gap-[12px]">
-          <h3 className="text-[20px] font-semibold text-[#e6e6e6] leading-[1.4] tracking-[-0.02em]">
+          <h3
+            className={`text-[20px] ${sectionHeadingGradientClass}`}
+            style={SECTION_HEADING_GRADIENT_STYLE}
+          >
             Schedule a meeting
           </h3>
           <p className="text-[14px] font-normal text-[#a1a1a1] leading-[1.55]">

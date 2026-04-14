@@ -7,6 +7,10 @@ import { CaseCard } from "@/components/case-card";
 import { MeetingCard } from "@/components/meeting-card";
 import { useDragScroll } from "@/hooks/use-drag-scroll";
 import {
+  sectionHeadingGradientClass,
+  SECTION_HEADING_GRADIENT_STYLE,
+} from "@/lib/heading-gradient";
+import {
   cascadeItem,
   fadeUp,
   mainContainer,
@@ -30,7 +34,10 @@ export function HomeDashboard() {
         className="flex items-start justify-between"
       >
         <div className="flex flex-col gap-[8px]">
-          <h1 className="text-[32px] font-semibold text-white leading-[1.4] tracking-[-0.02em]">
+          <h1
+            className={`text-[32px] ${sectionHeadingGradientClass}`}
+            style={SECTION_HEADING_GRADIENT_STYLE}
+          >
             Welcome back, Muhammad
           </h1>
           <p className="text-[16px] font-normal text-[#bcbcc6] leading-[1.5] tracking-[-0.02em]">
@@ -80,11 +87,8 @@ export function HomeDashboard() {
           className="flex items-center gap-[12px]"
         >
           <h2
-            className="flex-1 text-[20px] font-semibold leading-[1.4] tracking-[-0.02em] bg-clip-text text-transparent"
-            style={{
-              backgroundImage:
-                "linear-gradient(-0.66deg, rgb(242, 245, 249) 0%, rgb(227, 232, 239) 47.97%, rgb(242, 245, 249) 98.62%)",
-            }}
+            className={`flex-1 text-[20px] ${sectionHeadingGradientClass}`}
+            style={SECTION_HEADING_GRADIENT_STYLE}
           >
             Recent cases
           </h2>
