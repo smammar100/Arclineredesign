@@ -41,7 +41,7 @@ const aeonik = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Arcline — e-Signature Dashboard",
+  title: "Arcline redesigned",
   description: "e-Signature Documents Dashboard",
 };
 
