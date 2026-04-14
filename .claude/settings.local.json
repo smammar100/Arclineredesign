@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx shadcn@latest init -d --base-color zinc --css-variables)",
+      "Bash(npx shadcn@latest add badge card -y)",
+      "Bash(curl -s -o paper1.png \"http://localhost:3845/assets/e48ef3d9df8e04fc885cc2a230f53d6df526c8ef.png\")",
+      "Bash(curl -s -o paper2.png \"http://localhost:3845/assets/bf16efe031a1fa80aa4f8e32bbeac54233d969f4.png\")",
+      "Bash(curl -s -o avatar.png \"http://localhost:3845/assets/5f1362ff951c9a031d5711fc1a40a6abd50eb93d.png\")",
+      "Bash(curl -s -o calendar-main.svg \"http://localhost:3845/assets/e318e0aa42762e0bca30d727bd262891953cd860.svg\")",
+      "Bash(curl -s -o calendar-mask1.svg \"http://localhost:3845/assets/f175bcdc99d78422dbe07b8f5906b1ab94a965f6.svg\")",
+      "Bash(curl -s -o calendar-base.svg \"http://localhost:3845/assets/d0bdbafdcc2fc2b674a40e078d7cdad904dc2b8a.svg\")",
+      "Bash(curl -s -o calendar-mask2.svg \"http://localhost:3845/assets/bb3de5eb702f3e000e1160c5a88572fb76f0601c.svg\")",
+      "Bash(curl -s -o plant1.svg \"http://localhost:3845/assets/3165dd2eabed8b737c7ee78a5cdf1f2ad15fc22d.svg\")",
+      "Bash(curl -s -o logo.svg \"http://localhost:3845/assets/89aac0b3fb9792ff7ed8b020cc1d2e3c7a08da28.svg\")",
+      "Bash(curl -s -o dot-gray.svg \"http://localhost:3845/assets/c4627ab4cb40bcce9d02832605db30fea7deeb68.svg\")",
+      "Bash(curl -s -o dot-purple.svg \"http://localhost:3845/assets/4ba30617760e61014ecf77969a544219c47838c0.svg\")",
+      "Bash(curl -s -o dot-amber.svg \"http://localhost:3845/assets/d372425838021d44b504e154672f9f2f9c774e83.svg\")",
+      "Bash(curl -s -o dot-green.svg \"http://localhost:3845/assets/e0557b41a39ac3a10c9abe444c79dcbb3f652d0f.svg\")",
+      "Bash(curl -s -o arcline-mask.svg \"http://localhost:3845/assets/5c4d15c67727d9d89975524c689eabee01437621.svg\")",
+      "Bash(curl -s -o arcline-r.svg \"http://localhost:3845/assets/4897bcdddace03c43f0fbed987016124d6054868.svg\")",
+      "Bash(curl -s -o arcline-c.svg \"http://localhost:3845/assets/df6ff00b35a38c798f0104095dcf76c58291980e.svg\")",
+      "Bash(curl -s -o arcline-li.svg \"http://localhost:3845/assets/4ce90a0c248c68e09f1dd3e7058961898880eb20.svg\")",
+      "Bash(curl -s -o arcline-ne.svg \"http://localhost:3845/assets/5b6bf13bb5e645eabe74dd2191ef4f5031517a57.svg\")",
+      "Bash(npm run:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(taskkill //F //FI \"WINDOWTITLE eq npm\")",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
