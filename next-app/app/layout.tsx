@@ -57,8 +57,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${aeonik.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col bg-[#1a1a1a] text-white font-[family-name:var(--font-aeonik)]">
+    <html
+      lang="en"
+      className={`${aeonik.variable} h-full antialiased`}
+      suppressHydrationWarning
+    >
+      <body
+        className="min-h-full flex flex-col bg-[#1a1a1a] text-white font-[family-name:var(--font-aeonik)]"
+        suppressHydrationWarning
+      >
         <Providers>{children}</Providers>
       </body>
     </html>
